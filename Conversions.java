@@ -2,7 +2,7 @@ package exporting;
 
 import java.util.Scanner;
 /*
- * @author George West
+ * @author N/A
  * This program converts Fahrenheit to Celsius
  */
 public class Conversions {
