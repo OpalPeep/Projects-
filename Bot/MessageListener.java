@@ -56,7 +56,7 @@ public class MessageListener {
             System.out.println("Please enter the bots token as the first argument e.g java -jar thisjar.jar tokenhere");
             return;
         }*/
-        IDiscordClient client = createClient("NDU4NDUwMTA1MzM1NDE0Nzg0.Dgn1Pg.pSb5jbRyLa4BvYoY1TADXblFBas", true); 
+        IDiscordClient client = createClient("NDU4NDUwMTA1MzM1NDE0Nzg0.Dgn1Pg.pSb5jbRyLa4BvYoY1TADXblFBaf", true); 
         EventDispatcher dispatcher = client.getDispatcher();
         dispatcher.registerListener(new MessageListener());
         client.login();
